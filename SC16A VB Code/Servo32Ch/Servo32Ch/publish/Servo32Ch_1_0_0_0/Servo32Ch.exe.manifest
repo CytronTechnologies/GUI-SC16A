@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="Servo32Ch.exe" version="1.0.0.0" publicKeyToken="b2b0770431bfd9c2" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="52.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Servo32Ch" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Servo32Ch.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Servo32Ch.exe" size="303104">
+      <assemblyIdentity name="Servo32Ch" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>RNLg2jETBCEMv5wXir5mYTIT33U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="130.ico" size="326982">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>s968JhWXkIk84oiDEufT1mKT2Bs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="52.ico" size="326982">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UNL3DGuxhNo62LULecOOy9qx1VM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NGHYUAN-PC\yuan" issuerKeyHash="64bcbccb78311e6f2b23af7507f3d2de1bba4ccd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>faYfjmMUBjfXK3e0qGu7vOkbe7Y=</DigestValue></Reference></SignedInfo><SignatureValue>QgQqYjxO1ZRSdJUHvgNH0Dgsxhvv+W2LQkwm3dDc4/5L0rULQBqSPLwo1VW0+FwqCo+l3wugAkssD4vug0kLVGeCGn4NxwFAZkQhdgGO58+ahscYnGpfjjicrAYr1QMpDipaEnXYFrZyfyssH4bp8XdonCPu0Hipy23QOPBlwpc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0T+HF7LNJxwdhHRWFMsT3XKfDxk/VO6M2IkdFW/euM0O+lT8RQV1qHH//yGpxhUo9B7/UoBAajIn/+TF0MXtYh+MxGmCqCR05ZIIGM/gS80nnm9ldjOChjteTW7O2KkRNxEEDGHMoXCUpWwz1Bf98vZc39QiP1OKEZ3HgceWwrM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b67b1be9bcbb6ba8b4772bd7370614638e1fa67d" Description="" Url=""><as:assemblyIdentity name="Servo32Ch.exe" version="1.0.0.0" publicKeyToken="b2b0770431bfd9c2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NGHYUAN-PC\yuan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>cTej8Gn8c94J8vKKwkG6JjzBjFM=</DigestValue></Reference></SignedInfo><SignatureValue>IrrW9hXgqPzRFzgbK3xnJt+jK2B7uAvgbjsgQ5ZwWz/dg1NKK5YNvRkdVCdDO4/1SrdtOPni+WyjFo7LF6mRvBIXHJ69l8GD/wSB/qjB+J/OYpsK3G4MEVc3vzaOEUKRLmjdocObkkqKP58aOEssAFOrTcer9TUmi0MAmegRWrw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0T+HF7LNJxwdhHRWFMsT3XKfDxk/VO6M2IkdFW/euM0O+lT8RQV1qHH//yGpxhUo9B7/UoBAajIn/+TF0MXtYh+MxGmCqCR05ZIIGM/gS80nnm9ldjOChjteTW7O2KkRNxEEDGHMoXCUpWwz1Bf98vZc39QiP1OKEZ3HgceWwrM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATqgAwIBAgIQsvPBCU7DcKFC/5CBfQPiBTAJBgUrDgMCHQUAMCkxJzAlBgNVBAMeHgBOAEcASABZAFUAQQBOAC0AUABDAFwAeQB1AGEAbjAeFw0wODAzMDUwODU1MDBaFw0wOTAzMDUxNDU1MDBaMCkxJzAlBgNVBAMeHgBOAEcASABZAFUAQQBOAC0AUABDAFwAeQB1AGEAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0T+HF7LNJxwdhHRWFMsT3XKfDxk/VO6M2IkdFW/euM0O+lT8RQV1qHH//yGpxhUo9B7/UoBAajIn/+TF0MXtYh+MxGmCqCR05ZIIGM/gS80nnm9ldjOChjteTW7O2KkRNxEEDGHMoXCUpWwz1Bf98vZc39QiP1OKEZ3HgceWwrMCAwEAATAJBgUrDgMCHQUAA4GBALYOUxgDLbr3/rYlIcHtym05GBWWcYruC2ZSWaIScYjgsGZeFzp4f9En9ujnKpqoU6cHSa0vKcfreCkWypuDdjnN9gfg+tT428izPUKXn0UHE5gC2cu15qvzM57KdoylbW0aD73u1Tl+pYrEjG6VdlazATPY32d9euoCCmQxRBRc</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
